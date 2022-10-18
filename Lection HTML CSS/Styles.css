@@ -17,7 +17,7 @@ background-color: lightsteelblue;
 немного пространства вокруг нашего контента. В этот раз мы не устанавливаем padding на верхней
 части тела, но делаем 20 пикселей слева, снизу и справа. Значения устанавливаются сверху, справа,
 снизу, слева, в таком порядке */
- border: border: 10px solid white;
+ border: 10px solid white;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 margin: 0;
  padding: 20px 0;
  text-shadow: 2px 2px 1px cornflowerblue;
- color: darkblue;
+ color: red;
 }
 
 li {
