@@ -1,5 +1,11 @@
 <?php
 $name = "Irina Kazantseva";
+$job = "Human";
+$country = "Russia";
+$city = "SaintPetersburg";
+$mail = "KazIra@gmail.com";
+$telephone = "89213456789";
+
 $jobexp = [Places => ["Place1", "Place2", "Place3"], JobTitles => ["JobTitle1", "JobTitle2", "JobTitle3"], Responsibilities => ["Resp1", "Resp2", "Resp3"]]
 ?>
 
@@ -51,10 +57,18 @@ $jobexp = [Places => ["Place1", "Place2", "Place3"], JobTitles => ["JobTitle1", 
             </div>
           </div>
           <div class="w3-container">
-            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Профессия</p>
-            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Город, страна</p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>E-mail</p>
-            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>Телефон</p>
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <?php echo $job ?>
+            </p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <?php echo "{$city}, {$country}" ?>
+            </p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <?php echo $mail ?>
+            </p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
+              <?php echo $telephone ?>
+            </p>
             <hr>
 
             <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
